@@ -2,7 +2,10 @@
 title: MongoDB安装使用
 date: 2017-12-10 11:48:50
 tags:
-categories: 数据库
+- MongoDB
+categories:
+- MongoDB
+
 ---
 我的 win7 32 的，注意版本要正确！
 <!-- more -->

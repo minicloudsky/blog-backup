@@ -1,8 +1,12 @@
 ---
 title: PEXELS ajax图片爬虫
 date: 2017-10-01 13:03:57
-categories: Python
+categories: 
+- Python
+- 爬虫
 tags:
+- python
+- 爬虫
 ---
 PEXELS-ajax图片爬虫
 最近在实验室做 php 的项目，需要几张插图，我就在想，能不能利用自己所学的 python，去抓取一些图片为我所用呢? 说干就干，打开 pycharm。

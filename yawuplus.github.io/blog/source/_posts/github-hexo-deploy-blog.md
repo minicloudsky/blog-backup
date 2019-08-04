@@ -4,7 +4,9 @@ date: 2017-03-12 21:42:19
 tags: 
     - hexo
     - 主题 
-categories: Github,hexo
+categories: 
+- Github
+- hexo
 ---
 使用 hexo+Github搭建博客
 ![](github-hexo-deploy-blog/git-logo.jpg)
@@ -37,10 +39,10 @@ Repository name 填自己的名字 http://yourname.github.io
 $ npm install -g hexo-cli
 ```
 
-![](cmder.jpg)
+![](github-hexo-deploy-blog/cmder.jpg)
 三、设置
 在电脑 D 盘（看自己）目录下新建文件夹 test，进入 test，按住 Shift 键点击鼠标右键
-![](cmder.jpg)
+![](github-hexo-deploy-blog/cmder.jpg)
 因为我有安装 Cmder，没有安装的点击 “在此处打开命令窗口”，输入
 ```bash
 hexo init blog

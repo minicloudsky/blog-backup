@@ -1,7 +1,10 @@
 ---
 title: Python 入门学习小建议
 date: 2018-01-15 21:48:22
-tags: Python
+tags:
+- Python
+categories:
+- python
 ---
 
 Python是一门面向对象的解释型语言，基本上其他语言能够做的，python由于拥有强大的类库自带轮子，因此都可以做，因此你可以用python开发各种你想要的程序，包括桌面程序，爬虫 ，web开发，科学计算，机器学习，人脸识别等功能。

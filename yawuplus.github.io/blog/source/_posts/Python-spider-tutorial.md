@@ -1,7 +1,11 @@
 ---
 title: Python爬虫入门
 date: 2017-04-23 00:43:30
-categories: Python
+categories:
+- Python
+tags:
+- python
+
 ---
 
 

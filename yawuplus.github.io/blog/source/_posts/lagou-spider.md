@@ -1,8 +1,11 @@
 ---
 title: 拉勾网工作职位爬取
 date: 2018-3-5 13:09:45
-tags: ["爬虫","python"]
-categories: Python
+tags: 
+- 爬虫
+- 算法
+categories:
+- Python
 ---
 移动端数据分析数据加载方式后发现为ajax加载的json数据，可以通过接口获取数据，伪装请求后，就可以保存到MongoDB数据库了
 ```python

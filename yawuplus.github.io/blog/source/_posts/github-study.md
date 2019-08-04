@@ -1,8 +1,10 @@
 ---
 title: Github 学习与常见问题
 date: 2017-10-11 14:53:21
-categories: gitt
-tags: git
+categories:
+- git
+tags:
+- git
 
 ---
 
@@ -14,7 +16,8 @@ github以前用来搭建过博客，但是不会用git仓库，最近抽时间�
 
 + 环境安装（git）
 安装 Git [Git for Windows.](https://git-scm.com/downloads)
-![](github-study/git.jpg)
+![](github-study/git.png)
+
 国内直接从官网下载比较困难，需要翻墙。这里提供一个国内的下载站，方便网友下载
 [Git 教程](https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/)这里有廖雪峰老师的教程，非常好。
 初次使用安装
@@ -48,8 +51,8 @@ Hi yawuplus! You've successfully authenticated, but GitHub does not provide shel
 就说明你的git已经配置成功了。
 
 git 常用命令
-![](github-study/common.png)
-
+![](github-study/common.jpg)
+```bash
 bash 
 初始化仓库
 git init
@@ -88,7 +91,7 @@ git push origin master
 查看本地仓库状态
 git status
 
-
+```
     把本地库的内容推送到远程，用gitpush命令，实际上是把当前分支master推送到远程
 由于远程库是空的，我们第一次推送master分支时，加上了-u参数，Git不但会把本地的master分支内容推送的远程新的master分支，还会把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令
 推送成功后，可以立刻在GitHub页面中看到远程库的内容已经和本地一模一样：
@@ -191,6 +194,7 @@ git pull --rebase origin master
 如果你忘加了这个选项，pull操作仍然可以完成，但每次pull操作要同步中央仓库中别人修改时，提交历史会以一个多余的『合并提交』结尾。对于集中式工作流，最好是使用rebase而不是生成一个合并提交。
 小红解决合并冲突
 ![](github-study/git-workflow-svn-7.png)
+
 rebase操作过程是把本地提交一次一个地迁移到更新了的中央仓库master分支之上。这意味着可能要解决在迁移某个提交时出现的合并冲突，而不是解决包含了所有提交的大型合并时所出现的冲突。这样的方式让你尽可能保持每个提交的聚焦和项目历史的整洁。反过来，简化了哪里引入Bug的分析，如果有必要，回滚修改也可以做到对项目影响最小。
 
 如果小红和小明的功能是相关的，不大可能在rebase过程中有冲突。如果有，Git在合并有冲突的提交处暂停rebase过程，输出下面的信息并带上相关的指令：
@@ -218,6 +222,7 @@ git rebase --continue
 git rebase --abort
 小红成功发布功能
 ![](github-study/git-workflow-svn-9.png)
+
 小红完成和中央仓库的同步后，就能成功发布她的修改了：
 git push origin master
 

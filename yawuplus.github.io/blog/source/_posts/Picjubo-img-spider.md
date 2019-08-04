@@ -1,8 +1,10 @@
 ---
 title: 爬取Picjubo图片
 date: 2017-04-27 11:04:53
-categories: Python
+categories: 
+- Python
 tags:
+- 爬虫
 ---
 Python爬虫: 一蓑烟雨任平生
  周末起床闲来无事，就写个爬虫，收集些图片练练手，话不多说，打开Pycharm就是敲代码

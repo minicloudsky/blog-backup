@@ -1,8 +1,10 @@
 ---
 title: Link_list
 date: 2017-10-09 16:15:56
-categories: Algorithms
+categories:
+- 算法
 tags:
+- 算法
 ---
 <!-- more -->
 ```C

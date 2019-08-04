@@ -1,8 +1,10 @@
 ---
 title: Markdown语法
 date: 2017-04-27 11:04:53
-categories: markdown
-tags: markdown
+categories:
+- markdown
+tags:
+- markdown
 ---
 
 # 欢迎使用 Cmd Markdown 编辑阅读器

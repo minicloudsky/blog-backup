@@ -1,7 +1,11 @@
 ---
 title: 爬取豆瓣电影数据写入csv文件
 date: 2017-11-29 20:40:56
-categories: Python
+categories:
+- Python
+- 爬虫
+tags:
+- 爬虫
 ---
 
 豆瓣是一个国内相对比较公正的电影评论平台,因此我们用python来获取下豆瓣电影的数据

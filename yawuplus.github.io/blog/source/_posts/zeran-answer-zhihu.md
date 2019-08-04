@@ -2,7 +2,10 @@
 title: zeran 知乎回答
 date: 2017-10-22 14:13:01
 tags:
-categories: 生活和心情
+- 随笔
+categories: 
+- 生活
+- 心情
 ---
 https://www.zhihu.com/question/31729384/answer/53146952
 如何能做到不去在乎别人，而一心一意做自己的事情？

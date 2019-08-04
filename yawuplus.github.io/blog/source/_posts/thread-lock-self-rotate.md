@@ -2,7 +2,9 @@
 title: 自旋锁和互斥锁的区别
 date: 2018-05-15 16:49:52
 tags:
-categories: 操作系统
+- 操作系统
+categories: 
+- 操作系统
 ---
 POSIX threads(简称Pthreads)是在多核平台上进行并行编程的一套常用的API。线程同步(Thread Synchronization)是并行编程中非常重要的通讯手段，其中最典型的应用就是用Pthreads提供的锁机制(lock)来对多个线程之间共 享的临界区(Critical Section)进行保护(另一种常用的同步机制是barrier)。
 

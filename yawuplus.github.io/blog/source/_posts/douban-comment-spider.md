@@ -2,7 +2,9 @@
 title: 豆瓣评论爬取
 date: 2017-10-10 13:09:45
 tags:
-categories: Python
+- 爬虫
+categories:
+- Python
 ---
 豆瓣评论爬取
 ```python
@@ -15,9 +17,6 @@ from lxml import etree
 header = {'accept-encoding':'gzip, deflate, br',
 'accept-language':'zh-CN,zh;',
 'user-agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36'}
-```
-<!-- more -->
-```python
 class DoubanMovie:
     def __init__(self, movie_id, movie_page, comments_path):
         self.movie_id = movie_id

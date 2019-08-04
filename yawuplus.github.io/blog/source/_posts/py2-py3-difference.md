@@ -1,7 +1,11 @@
 ---
 title: python3 与python2的区别
 date: 2018-01-15 21:42:17
-tags: Python
+tags:
+- Python
+categories: 
+- python
+
 ---
 Python2.x 与 3​​.x 版本区别
 Python 的 3​​.0 版本，常被称为 Python 3000，或简称 Py3k。相对于 Python 的早期版本，这是一个较大的升级。

@@ -1,7 +1,11 @@
 ---
 title: 哈弗曼树
 date: 2017-04-12 23:48:08
-categories: Algorithms
+categories:
+- 算法
+tags:
+- 算法
+
 ---
 ```c
 //哈夫曼编码，输入编码个数和权值，输出编码
@@ -17,9 +21,6 @@ typedef struct
 	unsigned int weight ; 
 	unsigned int parent, LChild,RChild ; 
 }HTNode, * HuffmanTree;  
-```
-<!-- more -->
-```c
 void select(HuffmanTree *ht,int n, int *s1, int *s2)
 {
 	int i;

@@ -2,7 +2,9 @@
 title: MYSQL安装使用总结
 date: 2017-12-10 11:06:07
 tags:
-categories: 数据库
+- MySQL
+categories:
+- MySQL
 ---
 安装
 1. 下载路径
