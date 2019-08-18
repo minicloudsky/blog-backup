@@ -10,6 +10,7 @@ tags:
 
 github以前用来搭建过博客，但是不会用git仓库，最近抽时间跳坑，把常见问题总结了下。
 ### 配置 Github
+
 首先注册、登录 (github)[https://github.com/]
 记住自己的 Username（很重要）
 然后右上角选择 Create a new repository [https://github.com/new](https://github.com/new)
@@ -25,14 +26,16 @@ linux
 sudo apt-get install git
 windows下直接出了点默认
 <!-- more -->
-+ 配置账号
++ ### 配置账号
 
  你的用户名
-git config --global user.name "yawuplus"
+git config --global user.name   "yawuplus"
 你的邮箱名
-git config --global user.email "1397991131@qq.com"
+git config --global user.email    "1397991131@qq.com"
+
 生成ssh keys
-ssh-keygen -t rsa -C "1397991131@qq.com"
+
+ssh-keygen -t rsa -C     "1397991131@qq.com"
 
 一路 Enter 过来就好，得到信息：
 
@@ -50,8 +53,67 @@ Hi yawuplus! You've successfully authenticated, but GitHub does not provide shel
 
 就说明你的git已经配置成功了。
 
+### 一台电脑配置多个git账号
+
+因为工作需要，因此个人电脑上需要配置两个git账号，一个自己的github，一个公司的gitlab
+
+步骤如下:
+
+先生成 对应账号的ssh keys
+
+`ssh-keygen -t rsa -C     "1397991131@qq.com"`
+
+这里不要着急按回车键，把ssh keys改名，比如 id_rsa, id_rsa_work
+
+取消之前全局配置的git username email
+
+`git config --global --unset user.name` 
+
+`git config --global --unset user.email` 
+
+把对应账号生成的ssh keys添加到你的github、gitlab账号里
+
+然后,生成完密钥之后，我们还需要使用 `ssh-add` 命令是把专用密钥添加到 `ssh-agent` 的高速缓存中
+
+ssh-**add** -K ~/.ssh/id_rsa_work
+
+如果出现Could not open a connection to your authentication agent的错误，记得先执行
+
+**ssh-agent bash**
+
+然后在执行上面的添加命令。
+
+执行完成后，在Users/.ssh/目录下，新建config文件
+
+![](ssh.png)
+
+文件内容如下:
+
+# 该文件用于配置私钥对应的服务器
+`Host git@github.com   
+    HostName https://github.com`
+    `User yawuplus`
+    `IdentityFile ~/.ssh/id_rsa_yawuplus`    
+
+# 你第二个账号(公司gitlab账号)的host和主机地址，用户名，端口号等信息.
+
+`Host gitlab.zhichiwangluo.com`
+    `HostName gitlab.zhichiwangluo.com`
+    `Port 12345`
+    `User jiayawu`
+    `IdentityFile ~/.ssh/id_rsa_work`
+
+这些配置完，基本上就可以了，不过要注意的是，因为之前你用unset取消了全局的email name设置，因此，在你每个项目的repo下，可以使用
+
+`git config --local  user.name  jiayawu`
+
+`git config --local user.email  “3013568147@qq.com”`
+
+这样的方式来设置对应repo的 name email。
+
 git 常用命令
 ![](github-study/common.jpg)
+
 ```bash
 bash 
 初始化仓库
