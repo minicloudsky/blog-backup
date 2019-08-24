@@ -111,6 +111,20 @@ ssh-**add** -K ~/.ssh/id_rsa_work
 
 这样的方式来设置对应repo的 name email。
 
+遇到出现没有权限时候，执行以下命令
+
+`$ ssh-agent bash`
+
+`jia@DESKTOP-0FM6II9 MINGW64 /d/codes/Lianjia (master)`
+`$ ssh-add ~/.ssh/id_rsa_github`
+`Identity added: /c/Users/13979/.ssh/id_rsa_github (“1397991131@qq.com“)`
+
+`jia@DESKTOP-0FM6II9 MINGW64 /d/codes/Lianjia (master)`
+`$ git config user.email "1397991131@qq.com"`
+
+`jia@DESKTOP-0FM6II9 MINGW64 /d/codes/Lianjia (master)`
+`$ git config user.name "yawuplus"`
+
 git 常用命令
 ![](github-study/common.jpg)
 
