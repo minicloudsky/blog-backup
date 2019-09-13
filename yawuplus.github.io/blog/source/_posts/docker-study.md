@@ -34,13 +34,41 @@ Linux命名空间和`cgroups`管理着运行时容器，docker采用另一套技
 docker容器可以看成物理运输的集装箱，这是你存储、运行应用程序及其所有依赖的盒子。docker可以执行、复制、轻松地分发容器。docker通过一种打包和分发软件，完成传统容器的封装。这个用来充当容器分发角色的组件被称为`镜像`。  
 Docker镜像，是一个容器中运行程序的所有文件的捆绑快照。你可以从镜像中创造尽可能多的容器，但是你这样做时候，从相同的镜像启动的容器不共享文件系统的更改。当你用docker分发软件，其实就是分发这些镜像，并在接收的机器上创建容器镜像在docker生态系统中是可交付的基本单位。
 
+
+
 ------
 
-### docker下常用工具命令总结
+### docker下安装常用工具命令总结
+
+查看docker磁盘占用
+
+`docker system df`
+
+查看虚悬镜像
+
+`docker image ls  -f dangling=true`
+
+删除虚悬镜像
+
+`docker image  prune`
+
+根据仓库名列出镜像
+
+`docker images ls Ubuntu`
+
+列出镜像和标签
+
+`docker images ls Ubuntu:18.04`
 
 容器重命名 
 
 docker rename name1 name2
+
+## Dockerfile
+
+from 指定基础镜像
+
+以一个镜像为基础，在其上进行定制。必须是第一条命令
 
 #### mysql
 
