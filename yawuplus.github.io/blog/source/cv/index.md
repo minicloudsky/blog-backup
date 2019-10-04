@@ -1,10 +1,10 @@
 title: cv
 date: 2019-08-04 13:52:39
 ---
-## <span class="font" style="font-family:微软雅黑"><center><span class="size" style="font-size:32px;">贾亚武</span></center></span>
+## <span class="font" style="font-family:微软雅黑"><center><span class="size" style="font-size:32px;">风之小云天</span></center></span>
 
-* 贾亚武/男/1997
-* 本科/安阳工学院/计科系/软件工程
+* 风之小云天/男/1997
+* 本科/xxxx/计科系/软件工程
 * 技术博客：[http://yawujia.cn](http://yawujia.cn)
 * Github：[yawuplus](http://github.com/yawuplus)
 ---
@@ -19,7 +19,6 @@ date: 2019-08-04 13:52:39
 ### 教育背景
 
 * 本科: 2015-2019
-* 安阳工学院
 * 计算机科学与信息工程学院 15级软件工程
 * 主修课程: C语言、离散数学、计算机组成原理、Java程序设计、数据结构、操作系统、计算机网络、数据库系统原理、UML建模技术等。
 ---
