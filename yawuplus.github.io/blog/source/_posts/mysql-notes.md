@@ -464,3 +464,76 @@ FROM
 	LIMIT 10;
 ```
 
+##### mysql算数运算符有 + - * /  ， ()区分优先顺序
+
+##### 测试计算
+
+```sql
+select 2*3
+select trim('  abc  ')
+select now()
+```
+
+## 数据处理函数
+
+##### 常用的文本处理函数
+
+| 函数                    | 说明              |
+| ----------------------- | ----------------- |
+| LEFT(str,len)           | 返回串左边的字符  |
+| LENGTH(str)             | 返回串的长度      |
+| LOCATE(substr,str)      | 找出串的一个子串  |
+| LOWER(str)              | 将串转换为小写    |
+| LTRIM(str)              | 去掉左边空格      |
+| RIGHT(str,len)          | 返回串右边的字符  |
+| RTRIM(str)              | 去掉串右边的空格  |
+| SOUNDEX(str)            | 返回串的soundex值 |
+| SUBSTRING(str FROM pos) | 返回子串的字符    |
+| UPPER(str)              | 将串转换为大写    |
+
+#####        soundex是一个将任何文本串转换为描述其语音表示的字母数字模式的算法。soundex考虑了类似的发音字符和音节，使得能对串进行发音比较而不是字母比较，虽然soundex不是sql概念，但mysql(就像多数dbms一样)都提供对soundex的支持。
+
+##### 常用日期和时间处理函数
+
+| 函数                                | 说明                           |
+| ----------------------------------- | ------------------------------ |
+| ADDDATE(date,INTERVAL expr unit)    | 增加一个日期(天、周等)         |
+| ADDTIME(expr1,expr2)                | 增加一个时间(时、分等)         |
+| CURDATE()                           | 返回当前日期                   |
+| CURTIME()                           | 返回当前时间                   |
+| DATE()                              | 返回日期时间的日期部分         |
+| DATEDIFF('2019-09-01','2019-10-04') | 计算两个日期之差               |
+| Date_Add()                          | 高度灵活的日期运算函数         |
+| Date_Format()                       | 返回一个格式化的日期或时间串   |
+| Day()                               | 返回一个日期的天数部分         |
+| DayOfWeek()                         | 对于一个日期，返回对应的星期几 |
+| Hour()                              | 返回一个日期的小时部分         |
+| Minute()                            | 返回一个日期的分钟部分         |
+| Second()                            | 返回一个日期的秒部分           |
+| Month()                             | 返回一个日期的月份部分         |
+| Now()                               | 返回当前的日期和时间           |
+| Time()                              | 返回一个日期时间的时间部分     |
+| Year()                              | 返回一个日期的年份部分         |
+
+##### samples:
+
+```sql
+select cust_id,order_num 
+from orders 
+where date(order_date) = '2005-09-01'; //取出日期
+```
+
+```sql
+检索月份内数据
+1 检索每个月份开始和结束天日期
+select cust_id,order_num
+from orders
+where date(order_date) beetween '2009-09-01' and '2009-09-30'
+2 不需要记住每个月有多少天
+select cust_id,order_num 
+from orders
+where year(order_date) = 2005 and month(order_date) = 9;
+```
+
+##### 数据处理函数
+
