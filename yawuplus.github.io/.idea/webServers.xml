@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="bf27fae3-f08f-48d4-9c4a-62513d8aeb8e" name="blog" url="http://139.9.95.119">
+        <fileTransfer host="139.9.95.119" port="22" rootFolder="/code/blog-backup/yawuplus.github.io" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
