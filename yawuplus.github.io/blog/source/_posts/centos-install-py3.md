@@ -27,7 +27,10 @@ yum install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel read
 运行了以上命令以后，就安装了编译 python3 所用到的相关依赖
 
 * 默认的，centos7 也没有安装 pip，不知道是不是因为我安装软件的时候选择的是最小安装的模式。
+
 * 运行这个命令添加epel扩展源
+
+  <!-- more -->
 ---
 yum -y install epel-release
 
