@@ -22,8 +22,6 @@ tags:
 
 ##### 主键(primary key) : 一列(或者一组列 ，其值能够唯一区分表中每一行
 
-<!-- more -->
-
 ##### 成为主键条件：
 
 1. 任意两行都不具有相同主键值
@@ -538,4 +536,69 @@ where year(order_date) = 2005 and month(order_date) = 9;
 ```
 
 ##### 数据处理函数
+
+在主要DBMS中，数据处理函数是最一致最统一的函数。
+
+| 函数   | 说明               |
+| ------ | ------------------ |
+| ABS(X) | 返回一个数的绝对值 |
+| COS(X) | 余弦               |
+| exp()  | 指数值             |
+| mod()  | 返回除操作的余数   |
+| Pi()   | 返回圆周率         |
+| rand() | 返回一个随机数     |
+| SIN(X) | 返回一个角度的正弦 |
+| sqrt() | 返回一个数的平方根 |
+| tan()  | 返回一个角度的正切 |
+
+## 汇总数据
+
+获取想要的汇总信息
+
+##### SQL聚集函数
+
+| 函数    | 说明             |
+| ------- | ---------------- |
+| AVG()   | 返回某列的平均值 |
+| COUNT() | 返回某列的行数   |
+| MAX()   | 返回某列的最大值 |
+| MIN()   | 返回某列的最小值 |
+| SUM()   | 返回某列之和     |
+
+```sql
+// avg(0函数忽略列值为NULL的行)
+SELECT
+	AVG( weight ) as avg_weight 
+FROM
+	media
+```
+
+```sql
+//过滤出vend_id=1003的产品平均价格
+select avg(prod_price) as avg_price from products where vend_id = 1003;
+```
+
+##### count函数进行计数，可利用count()确定表中行的数目或符合特定条件的行的数目
+
+1. 使用 count(*)对表中行的数目进行计数，不管表列中包含的是空值(NULL)还是非空值。
+
+2. 使用count(column)对特定列中具有值的行进行计数，忽略NULL值。
+
+   ```sql
+   //对所有行计数，不管行中各列有什么值
+   SELECT
+   	count( * ) AS num_case 
+   FROM
+   	`zc_app_case_category`
+   ```
+
+   ```sql
+   //只对具有weight的分类计数
+   SELECT
+   	count( weight ) AS num_case 
+   FROM
+   	`zc_app_case_category`
+   ```
+
+   
 
