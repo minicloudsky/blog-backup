@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 瞻彼淇奥
+title: 风之小云天的博客
 subtitle: When your dreams come alive you're unstoppable
-description: 瞻彼淇奥的学习博客，编程和生活，不可或缺。
-author: 瞻彼淇奥
+description: 风之小云天的学习博客，编程和生活，不可或缺。
+author: 风之小云天
 email: 3013568147@qq.com
 language: zh-CN
 timezone: Asia/Shanghai
-keywords: " 后台开发,python爬虫, js,javascript,java, 开发者, 程序猿, 程序媛, 极客, 编程, 代码, 开源, IT 网站, Developer,Programmer,Coder,Geek,java,python,php 用户体验 "
+keywords: " 风之小云天，瞻彼淇奥，瞻彼淇奥的学习博客，风之小云天的博客,后台开发,python爬虫, js,javascript,java, 开发者, 程序猿, 程序媛, 极客, 编程, 代码, 开源, IT 网站, Developer,Programmer,Coder,Geek,java,python,php 用户体验 "
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://yawuplus.github.io
+url: https://yawujia.cn
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
