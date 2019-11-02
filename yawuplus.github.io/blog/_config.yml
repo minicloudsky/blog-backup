@@ -31,7 +31,7 @@ skip_render:
   - about/*
   # -bookmark/*
   - baidu_verify_Wo5mh3ARU8.html
-
+  - googled675671fe94439c3.html
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
