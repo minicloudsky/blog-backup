@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Jiayawu's blog
+title: 瞻彼淇奥
 subtitle: When your dreams come alive you're unstoppable
 description: 瞻彼淇奥的学习博客，编程和生活，不可或缺。
 author: 瞻彼淇奥
@@ -198,10 +198,11 @@ gitment:
   ClientSecret: 643756d633a58e516202086029eb41a3413182ef
   lazy: true
 
-# sitemap:
-#   path: sitemap.xml
-# baidusitemap:
-#   path: baidusitemap.xmlsitemap:
-#   path: sitemap.xml
-# baidusitemap:
-#   path: baidusitemap.xml
+sitemap:
+    path: sitemap.xml
+#baidusitemap:
+#path: baidusitemap.xml
+#sitemap:
+#    path: sitemap.xml
+baidusitemap:
+    path: baidusitemap.xml
