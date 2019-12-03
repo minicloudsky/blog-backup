@@ -1,10 +1,11 @@
----
-title: redis数据库
-date: 2019-11-28 17:00:32
+ ---                                                                                                
+title: redis基础
+date: 2019-12-01 11:06:07
 tags:
--redis
+- redis
 categories:
--redis
+- redis
+---
 
 ## Redis 简介
 Redis 是完全开源免费的，遵守 BSD 协议，是一个高性能的 key-value 数据库。
