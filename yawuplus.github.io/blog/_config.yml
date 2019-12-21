@@ -28,7 +28,7 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render: 
-  - about/*
+  #- about/*
   # -bookmark/*
   - baidu_verify_Wo5mh3ARU8.html
   - googled675671fe94439c3.html
