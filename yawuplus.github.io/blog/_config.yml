@@ -93,7 +93,7 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 # theme: landscape
-theme: yilia
+theme: next
 # search
 search:
   path: search.xml
@@ -106,7 +106,7 @@ search:
 deploy:
   type: git
   repo:
-      git: git@github.com:yawuplus/yawuplus.github.io.git
+      git: git@github.com:minicloudsky/minicloudsky.github.io.git
       # coding: git@git.coding.net:qiyuplus/blog.git
   branch: master
   #type: baidu_url_submitter
@@ -193,8 +193,8 @@ lightgallery:
 
 gitment:
   enable: false
-  githubID: yawuplus
-  repo: https://github.com/yawuplus/blog-comments.git
+  githubID: minicloudsky
+  repo: https://github.com/minicloudsky/blog-comments.git
   ClientID: 06c00a42e10f0cf813d9
   ClientSecret: 643756d633a58e516202086029eb41a3413182ef
   lazy: true
