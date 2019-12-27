@@ -1,2 +1,2 @@
 #  blog-backup
-backups for  blog,also deploy to aliyun oss.
+backup for my  blog, deploy to aliyun oss.
