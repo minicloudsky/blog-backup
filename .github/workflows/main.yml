@@ -26,6 +26,7 @@ jobs:
         cd ..
         \cp -f theme_config/_config.yml blog/themes/next/
         cd blog
+        hexo clean
         hexo generate
         cd ..
     - uses: manyuanrong/setup-ossutil@v1.0
