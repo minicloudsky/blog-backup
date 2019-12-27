@@ -17,9 +17,9 @@ jobs:
     - name: Build my hexo blog
       run: |
         echo start deploy blog
+        cd blog
         npm install
         npm install -g hexo-cli
-        cd blog
         hexo clean
         hexo generate
     - uses: manyuanrong/setup-ossutil@v1.0
@@ -29,4 +29,4 @@ jobs:
         access-key-secret: ${{ secrets.ACCESS_KEY_SECRET }}
     - name: Deploy my blog to aliyun oss
       run: 
-           ls && pwd && ossutil cp blog/public oss://minicloudsky -rf
+           cd .. && ls && pwd && ossutil cp blog/public oss://minicloudsky -rf
