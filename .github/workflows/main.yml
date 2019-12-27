@@ -19,6 +19,7 @@ jobs:
         echo start deploy blog
         npm install
         npm install -g hexo-cli
+        cd blog
         hexo clean
         hexo generate
     - uses: manyuanrong/setup-ossutil@v1.0
