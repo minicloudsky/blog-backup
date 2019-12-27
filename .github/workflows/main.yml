@@ -20,6 +20,10 @@ jobs:
         cd blog
         npm install
         npm install -g hexo-cli
+        npm install -g hexo hexo-deployer-git  hexo-generator-archive hexo-generator-category hexo-generator-index  hexo-generator-searchdb hexo-generator-tag hexo-renderer-ejs hexo-renderer-marked hexo-renderer-stylus hexo-server hexo-wordcount
+        npm ls --depth 0
+        git clone https://github.com/iissnan/hexo-theme-next themes/next
+        \cp -f theme_config/_config.yml themes/next/
         hexo generate
         cd ..
     - uses: manyuanrong/setup-ossutil@v1.0
