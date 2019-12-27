@@ -20,7 +20,6 @@ jobs:
         cd blog
         npm install
         npm install -g hexo-cli
-        hexo clean
         hexo generate
         cd ..
     - uses: manyuanrong/setup-ossutil@v1.0
