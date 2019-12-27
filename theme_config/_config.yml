@@ -97,9 +97,9 @@ menu:
   tags: /tags/
   categories: /categories/
   archives: /archives/
-  cv: /cv
-  book: /book
-  bookmarks: /bookmark
+  cv: /cv/
+  book: /book/
+  bookmarks: /bookmark/
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
