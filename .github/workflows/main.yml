@@ -22,6 +22,7 @@ jobs:
         npm install -g hexo-cli
         hexo clean
         hexo generate
+        cd ..
     - uses: manyuanrong/setup-ossutil@v1.0
       with: 
         endpoint: "oss-cn-shenzhen.aliyuncs.com" 
@@ -29,4 +30,4 @@ jobs:
         access-key-secret: ${{ secrets.ACCESS_KEY_SECRET }}
     - name: Deploy my blog to aliyun oss
       run: 
-          ossutil cp public oss://minicloudsky -rf
+          ossutil cp blog/public oss://minicloudsky -rf
