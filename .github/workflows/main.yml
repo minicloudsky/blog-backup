@@ -29,4 +29,4 @@ jobs:
         access-key-secret: ${{ secrets.ACCESS_KEY_SECRET }}
     - name: Deploy my blog to aliyun oss
       run: 
-          ossutil cp blog/public oss://minicloudsky -rf
+          ossutil cp public oss://minicloudsky -rf
