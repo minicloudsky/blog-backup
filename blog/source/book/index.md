@@ -1,7 +1,7 @@
 
 ---
 title: 个人oss书籍和文件同步到这里
-date: 2020-01-10 11:47:16.632203
+date: 2020-01-10 11:54:30.197047
 categories:
 tags:
 ---
@@ -118,7 +118,7 @@ tags:
 [Python数据分析与挖掘实战.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/Python%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E6%8C%96%E6%8E%98%E5%AE%9E%E6%88%98.pdf)
 [](https://plus-books.oss-cn-shenzhen.aliyuncs.com/React/)
 [深入浅出React和Redux.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/React/%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BAReact%E5%92%8CRedux.pdf)
-[Spring MVC学习指南（第2版）@www.java1234.com.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/Spring%20MVC%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97%EF%BC%88%E7%AC%AC2%E7%89%88%EF%BC%89%40www.java1234.com.pdf)
+[Spring MVC学习指南（第2版）.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/Spring%20MVC%E5%AD%A6%E4%B9%A0%E6%8C%87%E5%8D%97%EF%BC%88%E7%AC%AC2%E7%89%88%EF%BC%89%40www.java1234.com.pdf)
 [TCP_IP详解.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/TCP_IP%E8%AF%A6%E8%A7%A3.pdf)
 [TensorFlow Machine Learning Cookbook.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/TensorFlow%20Machine%20Learning%20Cookbook.pdf)
 [TensorFlow实战_黄文坚（完整）.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/TensorFlow%E5%AE%9E%E6%88%98_%E9%BB%84%E6%96%87%E5%9D%9A%EF%BC%88%E5%AE%8C%E6%95%B4%EF%BC%89.pdf)
@@ -130,13 +130,13 @@ tags:
 [[www.java1234.com]redis设计与实现(第二版).pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/%5Bwww.java1234.com%5Dredis%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0%28%E7%AC%AC%E4%BA%8C%E7%89%88%29.pdf)
 [[www.java1234.com]深入分析Java  Web技术内幕  修订版.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/%5Bwww.java1234.com%5D%E6%B7%B1%E5%85%A5%E5%88%86%E6%9E%90Java%20%20Web%E6%8A%80%E6%9C%AF%E5%86%85%E5%B9%95%20%20%E4%BF%AE%E8%AE%A2%E7%89%88.pdf)
 [](https://plus-books.oss-cn-shenzhen.aliyuncs.com/bigdata/)
-[ElasticSearch 可扩展的开源弹性搜索解决方案@www.java1234.com.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/bigdata/ElasticSearch%20%E5%8F%AF%E6%89%A9%E5%B1%95%E7%9A%84%E5%BC%80%E6%BA%90%E5%BC%B9%E6%80%A7%E6%90%9C%E7%B4%A2%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%40www.java1234.com.pdf)
+[ElasticSearch 可扩展的开源弹性搜索解决方案.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/bigdata/ElasticSearch%20%E5%8F%AF%E6%89%A9%E5%B1%95%E7%9A%84%E5%BC%80%E6%BA%90%E5%BC%B9%E6%80%A7%E6%90%9C%E7%B4%A2%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%40www.java1234.com.pdf)
 [Hive高级编程.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/bigdata/Hive%E9%AB%98%E7%BA%A7%E7%BC%96%E7%A8%8B.pdf)
 [Scala语言规范.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/bigdata/Scala%E8%AF%AD%E8%A8%80%E8%A7%84%E8%8C%83.pdf)
 [Spark快速数据处理完整版.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/bigdata/Spark%E5%BF%AB%E9%80%9F%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86%E5%AE%8C%E6%95%B4%E7%89%88.pdf)
 [《数据仓库原理与实践》.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/bigdata/%E3%80%8A%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93%E5%8E%9F%E7%90%86%E4%B8%8E%E5%AE%9E%E8%B7%B5%E3%80%8B.pdf)
-[实战Elasticsearch、Logstash、Kibana  分布式大数据搜索与日志挖掘及可视化解决方案@www.java1234.com.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/bigdata/%E5%AE%9E%E6%88%98Elasticsearch%E3%80%81Logstash%E3%80%81Kibana%20%20%E5%88%86%E5%B8%83%E5%BC%8F%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%90%9C%E7%B4%A2%E4%B8%8E%E6%97%A5%E5%BF%97%E6%8C%96%E6%8E%98%E5%8F%8A%E5%8F%AF%E8%A7%86%E5%8C%96%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%40www.java1234.com.pdf)
-[深入理解ElasticSearch  原书第2版@www.java1234.com.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/bigdata/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3ElasticSearch%20%20%E5%8E%9F%E4%B9%A6%E7%AC%AC2%E7%89%88%40www.java1234.com.pdf)
+[实战Elasticsearch、Logstash、Kibana  分布式大数据搜索与日志挖掘及可视化解决方案.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/bigdata/%E5%AE%9E%E6%88%98Elasticsearch%E3%80%81Logstash%E3%80%81Kibana%20%20%E5%88%86%E5%B8%83%E5%BC%8F%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%90%9C%E7%B4%A2%E4%B8%8E%E6%97%A5%E5%BF%97%E6%8C%96%E6%8E%98%E5%8F%8A%E5%8F%AF%E8%A7%86%E5%8C%96%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%40www.java1234.com.pdf)
+[深入理解ElasticSearch  原书第2版.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/bigdata/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3ElasticSearch%20%20%E5%8E%9F%E4%B9%A6%E7%AC%AC2%E7%89%88%40www.java1234.com.pdf)
 [](https://plus-books.oss-cn-shenzhen.aliyuncs.com/css/)
 [CSS权威指南 第3版.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/css/CSS%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97%20%E7%AC%AC3%E7%89%88.pdf)
 [CSS权威指南.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/css/CSS%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97.pdf)
@@ -154,8 +154,8 @@ tags:
 [常用算法程序集（C语言描述） （第三版）.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/data_structures_algorithms/%E5%B8%B8%E7%94%A8%E7%AE%97%E6%B3%95%E7%A8%8B%E5%BA%8F%E9%9B%86%EF%BC%88C%E8%AF%AD%E8%A8%80%E6%8F%8F%E8%BF%B0%EF%BC%89%20%EF%BC%88%E7%AC%AC%E4%B8%89%E7%89%88%EF%BC%89.pdf)
 [算法图解.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/data_structures_algorithms/%E7%AE%97%E6%B3%95%E5%9B%BE%E8%A7%A3.pdf)
 [](https://plus-books.oss-cn-shenzhen.aliyuncs.com/databases/)
-[561801 Redis实战@www.java1234.com.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/databases/561801%20Redis%E5%AE%9E%E6%88%98%40www.java1234.com.pdf)
-[MONGODB实战  第2版@www.java1234.com.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/databases/MONGODB%E5%AE%9E%E6%88%98%20%20%E7%AC%AC2%E7%89%88%40www.java1234.com.pdf)
+[561801 Redis实战.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/databases/561801%20Redis%E5%AE%9E%E6%88%98%40www.java1234.com.pdf)
+[MONGODB实战  第2版.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/databases/MONGODB%E5%AE%9E%E6%88%98%20%20%E7%AC%AC2%E7%89%88%40www.java1234.com.pdf)
 [MYSQL必知必会 福塔版[www.rejoiceblog.com].pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/databases/MYSQL%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A%20%E7%A6%8F%E5%A1%94%E7%89%88%5Bwww.rejoiceblog.com%5D.pdf)
 [MongoDB权威指南.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/databases/MongoDB%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97.pdf)
 [MySQL中文.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/databases/MySQL%E4%B8%AD%E6%96%87.pdf)
@@ -165,10 +165,10 @@ tags:
 [mysql必知必会（带目录结构）.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/databases/mysql%E5%BF%85%E7%9F%A5%E5%BF%85%E4%BC%9A%EF%BC%88%E5%B8%A6%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84%EF%BC%89.pdf)
 [redis设计与实现(第二版).pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/databases/redis%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0%28%E7%AC%AC%E4%BA%8C%E7%89%88%29.pdf)
 [收获，不止SQL优化--抓住SQL的本质 .pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/databases/%E6%94%B6%E8%8E%B7%EF%BC%8C%E4%B8%8D%E6%AD%A2SQL%E4%BC%98%E5%8C%96--%E6%8A%93%E4%BD%8FSQL%E7%9A%84%E6%9C%AC%E8%B4%A8%20.pdf)
-[收获，不止SQL优化--抓住SQL的本质 @www.java1234.com.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/databases/%E6%94%B6%E8%8E%B7%EF%BC%8C%E4%B8%8D%E6%AD%A2SQL%E4%BC%98%E5%8C%96--%E6%8A%93%E4%BD%8FSQL%E7%9A%84%E6%9C%AC%E8%B4%A8%20%40www.java1234.com.pdf)
+[收获，不止SQL优化--抓住SQL的本质 .pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/databases/%E6%94%B6%E8%8E%B7%EF%BC%8C%E4%B8%8D%E6%AD%A2SQL%E4%BC%98%E5%8C%96--%E6%8A%93%E4%BD%8FSQL%E7%9A%84%E6%9C%AC%E8%B4%A8%20%40www.java1234.com.pdf)
 [高性能MySQL_第3版（中文）.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/databases/%E9%AB%98%E6%80%A7%E8%83%BDMySQL_%E7%AC%AC3%E7%89%88%EF%BC%88%E4%B8%AD%E6%96%87%EF%BC%89.pdf)
 [](https://plus-books.oss-cn-shenzhen.aliyuncs.com/devops/)
-[Docker实战@www.java1234.com.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/devops/Docker%E5%AE%9E%E6%88%98%40www.java1234.com.pdf)
+[Docker实战.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/devops/Docker%E5%AE%9E%E6%88%98%40www.java1234.com.pdf)
 [Git教程.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/devops/Git%E6%95%99%E7%A8%8B.pdf)
 [Ubuntu命令手册.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/devops/Ubuntu%E5%91%BD%E4%BB%A4%E6%89%8B%E5%86%8C.pdf)
 [Ubuntu常用命令大全.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/devops/Ubuntu%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E5%A4%A7%E5%85%A8.pdf)
@@ -187,8 +187,8 @@ tags:
 [JavaScript高级程序设计.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/js/JavaScript%E9%AB%98%E7%BA%A7%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1.pdf)
 [JavaScript高级程序设计（pdf高清版）.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/js/JavaScript%E9%AB%98%E7%BA%A7%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%EF%BC%88pdf%E9%AB%98%E6%B8%85%E7%89%88%EF%BC%89.pdf)
 [JavaScript高级程序设计（第3版）.epub](https://plus-books.oss-cn-shenzhen.aliyuncs.com/js/JavaScript%E9%AB%98%E7%BA%A7%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%EF%BC%88%E7%AC%AC3%E7%89%88%EF%BC%89.epub)
-[[www.javascriptcn.com]JavaScript权威指南(第6版)(中文版)(1).pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/js/%5Bwww.javascriptcn.com%5DJavaScript%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97%28%E7%AC%AC6%E7%89%88%29%28%E4%B8%AD%E6%96%87%E7%89%88%29%281%29.pdf)
-[[www.javascriptcn.com]JavaScript权威指南(第6版)(中文版).pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/js/%5Bwww.javascriptcn.com%5DJavaScript%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97%28%E7%AC%AC6%E7%89%88%29%28%E4%B8%AD%E6%96%87%E7%89%88%29.pdf)
+[JavaScript权威指南(第6版)(中文版)(1).pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/js/%5Bwww.javascriptcn.com%5DJavaScript%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97%28%E7%AC%AC6%E7%89%88%29%28%E4%B8%AD%E6%96%87%E7%89%88%29%281%29.pdf)
+[JavaScript权威指南(第6版)(中文版).pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/js/%5Bwww.javascriptcn.com%5DJavaScript%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97%28%E7%AC%AC6%E7%89%88%29%28%E4%B8%AD%E6%96%87%E7%89%88%29.pdf)
 [《JavaScript网页特效范例宝典》PDF.rar](https://plus-books.oss-cn-shenzhen.aliyuncs.com/js/%E3%80%8AJavaScript%E7%BD%91%E9%A1%B5%E7%89%B9%E6%95%88%E8%8C%83%E4%BE%8B%E5%AE%9D%E5%85%B8%E3%80%8BPDF.rar)
 [精通JavaScript(图灵计算机科学丛书).pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/js/%E7%B2%BE%E9%80%9AJavaScript%28%E5%9B%BE%E7%81%B5%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E4%B8%9B%E4%B9%A6%29.pdf)
 [编写高质量代码--Web前端开发修炼之道.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/js/%E7%BC%96%E5%86%99%E9%AB%98%E8%B4%A8%E9%87%8F%E4%BB%A3%E7%A0%81--Web%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E4%BF%AE%E7%82%BC%E4%B9%8B%E9%81%93.pdf)
@@ -214,7 +214,7 @@ tags:
 [商君书.PDF](https://plus-books.oss-cn-shenzhen.aliyuncs.com/%E5%95%86%E5%90%9B%E4%B9%A6.PDF)
 [国富论中文版.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/%E5%9B%BD%E5%AF%8C%E8%AE%BA%E4%B8%AD%E6%96%87%E7%89%88.pdf)
 [图解HTTP.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/%E5%9B%BE%E8%A7%A3HTTP.pdf)
-[基于R语言数据挖掘的统计与分析@www.java1234.com.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/%E5%9F%BA%E4%BA%8ER%E8%AF%AD%E8%A8%80%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98%E7%9A%84%E7%BB%9F%E8%AE%A1%E4%B8%8E%E5%88%86%E6%9E%90%40www.java1234.com.pdf)
+[基于R语言数据挖掘的统计与分析.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/%E5%9F%BA%E4%BA%8ER%E8%AF%AD%E8%A8%80%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98%E7%9A%84%E7%BB%9F%E8%AE%A1%E4%B8%8E%E5%88%86%E6%9E%90%40www.java1234.com.pdf)
 [多线程编程指南.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%BC%96%E7%A8%8B%E6%8C%87%E5%8D%97.pdf)
 [微服务架构与实践 ,王磊著(1).pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E4%B8%8E%E5%AE%9E%E8%B7%B5%20%2C%E7%8E%8B%E7%A3%8A%E8%91%97%281%29.pdf)
 [微服务：从设计到部署中文完整版.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/%E5%BE%AE%E6%9C%8D%E5%8A%A1%EF%BC%9A%E4%BB%8E%E8%AE%BE%E8%AE%A1%E5%88%B0%E9%83%A8%E7%BD%B2%E4%B8%AD%E6%96%87%E5%AE%8C%E6%95%B4%E7%89%88.pdf)
