@@ -8,10 +8,7 @@ categories:
 ---
 
 ## Redis 简介
-Redis 是完全开源免费的，遵守 BSD 协议，是一个高性能的 key-value 数据库。
-
-Redis 与其他 key - value 缓存产品有以下三个特点：
-
+Redis 是一个高性能的key-value形式的内存数据库
 Redis 支持数据的持久化，可以将内存中的数据保持在磁盘中，重启的时候可以再次加载进行使用。
 Redis 不仅仅支持简单的 key-value 类型的数据，同时还提供 list，set，zset，hash 等数据结构的存储。
 Redis 支持数据的备份，即 master-slave 模式的数据备份。
@@ -62,4 +59,7 @@ COMMAND KEY_NAME
 `getset key value` 将给定的key的值设为value，并返回key的旧值
 `getbit key offset` 对key所储存的字符串值，获取指定偏移量上的位(bit)
 
+### Redis 持久化 RDB和AOF
+持久化，就是把数据(如内存中的对象)保存到可以永久保存的设备，例如磁盘
+持久化Redis所有数据保持在内存中，对数据的更新将异步保存在磁盘上
 

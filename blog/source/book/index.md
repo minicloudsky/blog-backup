@@ -1,7 +1,7 @@
 
 ---
 title: 个人oss书籍和文件同步到这里
-date: 2020-01-11 14:16:42.138467
+date: 2020-01-16 10:18:37.291405
 categories:
 tags:
 ---
@@ -168,11 +168,13 @@ tags:
 [《美团机器学习实践》_美团算法团队.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/%E3%80%8A%E7%BE%8E%E5%9B%A2%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%AE%9E%E8%B7%B5%E3%80%8B_%E7%BE%8E%E5%9B%A2%E7%AE%97%E6%B3%95%E5%9B%A2%E9%98%9F.pdf)
 [【1】Head First HTML与CSS（第2版） (1).pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/%E3%80%901%E3%80%91Head%20First%20HTML%E4%B8%8ECSS%EF%BC%88%E7%AC%AC2%E7%89%88%EF%BC%89%20%281%29.pdf)
 [上海交通大学学生生存手册.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%AD%A6%E7%94%9F%E7%94%9F%E5%AD%98%E6%89%8B%E5%86%8C.pdf)
+[分布式消息中间件实践 .pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/%E5%88%86%E5%B8%83%E5%BC%8F%E6%B6%88%E6%81%AF%E4%B8%AD%E9%97%B4%E4%BB%B6%E5%AE%9E%E8%B7%B5%20.pdf)
 [剑指offer—java实现—pdf.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/%E5%89%91%E6%8C%87offer%E2%80%94java%E5%AE%9E%E7%8E%B0%E2%80%94pdf.pdf)
 [动⼿学深度学习.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/%E5%8A%A8%E2%BC%BF%E5%AD%A6%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0.pdf)
 [叶卓 -活动策划执行-15757119826.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/%E5%8F%B6%E5%8D%93%20-%E6%B4%BB%E5%8A%A8%E7%AD%96%E5%88%92%E6%89%A7%E8%A1%8C-15757119826.pdf)
 [国富论中文版.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/%E5%9B%BD%E5%AF%8C%E8%AE%BA%E4%B8%AD%E6%96%87%E7%89%88.pdf)
 [图解HTTP.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/%E5%9B%BE%E8%A7%A3HTTP.pdf)
+[图解密码技术.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/%E5%9B%BE%E8%A7%A3%E5%AF%86%E7%A0%81%E6%8A%80%E6%9C%AF.pdf)
 [基于R语言数据挖掘的统计与分析.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/%E5%9F%BA%E4%BA%8ER%E8%AF%AD%E8%A8%80%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98%E7%9A%84%E7%BB%9F%E8%AE%A1%E4%B8%8E%E5%88%86%E6%9E%90%40www.java1234.com.pdf)
 [多线程编程指南.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%BC%96%E7%A8%8B%E6%8C%87%E5%8D%97.pdf)
 [微服务架构与实践 ,王磊著(1).pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E6%9E%B6%E6%9E%84%E4%B8%8E%E5%AE%9E%E8%B7%B5%20%2C%E7%8E%8B%E7%A3%8A%E8%91%97%281%29.pdf)
@@ -286,6 +288,7 @@ tags:
 [计算机程序的构造和解释（SICP中文第2版）.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E7%9A%84%E6%9E%84%E9%80%A0%E5%92%8C%E8%A7%A3%E9%87%8A%EF%BC%88SICP%E4%B8%AD%E6%96%87%E7%AC%AC2%E7%89%88%EF%BC%89.pdf)
 [[www.java1234.com]JavaScript设计模式与开发实践.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/%5Bwww.java1234.com%5DJavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5.pdf)
 [轻松学Java Web开发.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/%E8%BD%BB%E6%9D%BE%E5%AD%A6Java%20Web%E5%BC%80%E5%8F%91.pdf)
+[重构_改善既有代码的设计_完美书签版.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/%E9%87%8D%E6%9E%84_%E6%94%B9%E5%96%84%E6%97%A2%E6%9C%89%E4%BB%A3%E7%A0%81%E7%9A%84%E8%AE%BE%E8%AE%A1_%E5%AE%8C%E7%BE%8E%E4%B9%A6%E7%AD%BE%E7%89%88.pdf)
 [阿里巴巴Java开发手册（公开版）.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4Java%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C%EF%BC%88%E5%85%AC%E5%BC%80%E7%89%88%EF%BC%89.pdf)
 [700道JS面试题(含答案).pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/%E9%9D%A2%E8%AF%95%E7%9B%B8%E5%85%B3/700%E9%81%93JS%E9%9D%A2%E8%AF%95%E9%A2%98%28%E5%90%AB%E7%AD%94%E6%A1%88%29.pdf)
 [黑客-计算机革命的英雄(25周年纪念版).pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/%E9%BB%91%E5%AE%A2-%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%9D%A9%E5%91%BD%E7%9A%84%E8%8B%B1%E9%9B%84%2825%E5%91%A8%E5%B9%B4%E7%BA%AA%E5%BF%B5%E7%89%88%29.pdf)
