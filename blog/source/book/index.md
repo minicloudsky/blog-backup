@@ -1,7 +1,7 @@
 
 ---
 title: 个人oss书籍和文件同步到这里
-date: 2020-01-17 18:09:34.351477
+date: 2020-01-19 11:46:19.319581
 categories:
 tags:
 ---
@@ -19,6 +19,7 @@ tags:
 [C语言程序设计教程.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/C%E8%AF%AD%E8%A8%80%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E6%95%99%E7%A8%8B.pdf)
 [FlaskWeb开发：基于Python的Web应用开发实战.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/FlaskWeb%E5%BC%80%E5%8F%91%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84Web%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%98.pdf)
 [Ajax从入门到精通.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/Frontend/Ajax%E4%BB%8E%E5%85%A5%E9%97%A8%E5%88%B0%E7%B2%BE%E9%80%9A.pdf)
+[HTML5  WebSocket权威指南.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/Frontend/HTML5%20%20WebSocket%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97.pdf)
 [JavaScript高级程序设计（第3版）.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/Frontend/JavaScript%E9%AB%98%E7%BA%A7%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%EF%BC%88%E7%AC%AC3%E7%89%88%EF%BC%89.pdf)
 [web前端黑客技术揭秘.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/Frontend/web%E5%89%8D%E7%AB%AF%E9%BB%91%E5%AE%A2%E6%8A%80%E6%9C%AF%E6%8F%AD%E7%A7%98.pdf)
 [你不知道的JavaScript（上卷）.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/Frontend/%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84JavaScript%EF%BC%88%E4%B8%8A%E5%8D%B7%EF%BC%89.pdf)
