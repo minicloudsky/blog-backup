@@ -23,6 +23,6 @@ jobs:
         endpoint: "oss-cn-shenzhen.aliyuncs.com" 
         access-key-id: ${{ secrets.ACCESS_KEY_ID }}
         access-key-secret: ${{ secrets.ACCESS_KEY_SECRET }}
-    - name: Deploy my blog to aliyun oss
+    - name: 部署博客到阿里云oss
       run: 
           ossutil cp minicloudsky.github.io oss://minicloudsky -rf
