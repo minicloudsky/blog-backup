@@ -1,0 +1,40 @@
+name: deploy to aliyun oss
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - uses: actions/setup-node@v1
+      with:
+        node-version: "12.x"
+    - name: Run a one-line script
+      run: echo Hello, world!
+    - name: Build my hexo blog
+      run: |
+        echo start deploy blog
+        cd blog
+        npm install
+        npm install -g hexo-cli
+        npm install -g hexo-asset-image 
+        npm install -g hexo hexo-deployer-git  hexo-generator-archive hexo-generator-category hexo-generator-index  hexo-generator-searchdb hexo-generator-tag hexo-renderer-ejs hexo-renderer-marked hexo-renderer-stylus hexo-server hexo-wordcount
+        npm ls --depth 0
+        git clone https://github.com/iissnan/hexo-theme-next themes/next
+        cd ..
+        \cp -f theme_config/_config.yml blog/themes/next/
+        cd blog
+        hexo clean
+        hexo generate
+        cd ..
+    - uses: manyuanrong/setup-ossutil@v1.0
+      with: 
+        endpoint: "oss-cn-shenzhen.aliyuncs.com" 
+        access-key-id: ${{ secrets.ACCESS_KEY_ID }}
+        access-key-secret: ${{ secrets.ACCESS_KEY_SECRET }}
+    - name: Deploy my blog to aliyun oss
+      run: 
+          ossutil cp blog/public oss://minicloudsky -rf
