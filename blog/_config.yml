@@ -114,7 +114,6 @@ deploy:
   type: git
   repo:
       git: git@github.com:minicloudsky/minicloudsky.github.io.git
-      gitee: git@gitee.com:minicloudsky/minicloudsky.git
   branch: master
 
 

@@ -300,6 +300,48 @@ docker pull docker.elastic.co/elasticsearch/elasticsearch:7.5.2
 
 docker run -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:7.5.2
 
+### docker 容器中软件安装
+
+- 使用国内镜像
+
+```
+mv /etc/apt/sources.list /etc/apt/sources.list.bak
+echo "deb http://mirrors.163.com/debian/ jessie main non-free contrib" >> /etc/apt/sources.list
+echo "deb http://mirrors.163.com/debian/ jessie-proposed-updates main non-free contrib" >>/etc/apt/sources.list
+echo "deb-src http://mirrors.163.com/debian/ jessie main non-free contrib" >>/etc/apt/sources.list
+echo "deb-src http://mirrors.163.com/debian/ jessie-proposed-updates main non-free contrib" >>/etc/apt/sources.list
+```
+
+- 更新 `apt-get` 指令
+
+```
+apt-get update
+```
+
+- 安装 `yum` 命令
+
+```
+apt-get install vim
+```
+
+- 添加 `ls` 命令
+
+```
+vim ~/.bashrc
+```
+
+- 在最后一行添加
+
+```
+alias ll='ls $LS_OPTIONS -l'
+```
+
+- 使之生效
+
+```
+source ~/.bashrc
+```
+
 
 
 
