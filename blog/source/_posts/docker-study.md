@@ -222,9 +222,7 @@ run命令是指用来执行命令行命令的，有两种格式：
 
 启动一个镜像，并将mysql映射到服务器3306端口
 
-`docker run --name mysql5.7 -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root  -d mysql:5.7`
-
-`docker  run --name  mysql -p 3306:3306   -e MYSQL_ROOT_PASSWORD=root   -v   /usr/local/docker-mysql/log:/var/log/mysql  -v /usr/local/docker-mysql/conf:/etc/mysql     -v   /usr/local/docker-mysql/data:/var/lib/mysql`
+`docker  run  -it --name  mysql -p 3306:3306   -e MYSQL_ROOT_PASSWORD=root   -v   /home/containermaps/mysql/log/:/var/log/mysql  -v /home/containermaps/mysql/conf.d/:/etc/mysql     -v   /home/containermaps/mysql/data:/var/lib/mysql -d mysql:5.7`
 
 默认用户为root
 
@@ -294,11 +292,19 @@ docker run -p 27017:27017 -v /usr/local/docker-mongodb/data:/data/db -d mongo
 
 `docker exec -it mongo mongo admin`
 
-elasticsearch
+### elasticsearch
 
-docker pull docker.elastic.co/elasticsearch/elasticsearch:7.5.2
+`docker pull docker.elastic.co/elasticsearch/elasticsearch:7.5.2`
 
-docker run -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:7.5.2
+`docker run -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:7.5.2`
+
+### kibana
+
+```bash
+docker pull docker.elastic.co/kibana/kibana:7.6.0
+
+docker run --link YOUR_ELASTICSEARCH_CONTAINER_NAME_OR_ID:elasticsearch -p 5601:5601 {docker-repo}:{version}
+```
 
 ### docker 容器中软件安装
 
