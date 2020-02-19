@@ -89,27 +89,29 @@ run命令是指用来执行命令行命令的，有两种格式：
 
    dockerfile写法
 
-   `FROM debian:stretchRUNbuildDeps='gcc libc6-dev make wget' \`    
-
-   `&& apt-get update \`    
-
-   `&& apt-get install -y $buildDeps \`    
-
-   `&& wget -O redis.tar.gz "http://download.redis.io/releases/redis-5.0.3.tar.gz" \`    
-
-   `&& mkdir -p /usr/src/redis \`    
-
-   `&& tar -xzf redis.tar.gz -C /usr/src/redis --strip-components=1 \`    
-
-   `&& make -C /usr/src/redis \`    
-
-   `&& make -C /usr/src/redis install \`    
-
-   `&& rm -rf /var/lib/apt/lists/* \`    
-
-   `&& rm redis.tar.gz \    && rm -r /usr/src/redis \`    
-
-   `&& apt-get purge -y --auto-remove $buildDeps`  
+   ```
+FROM debian:stretchRUNbuildDeps='gcc libc6-dev make wget' \    
+   
+&& apt-get update \    
+   
+&& apt-get install -y $buildDeps \    
+   
+&& wget -O redis.tar.gz "http://download.redis.io/releases/redis-5.0.3.tar.gz" \    
+   
+&& mkdir -p /usr/src/redis \    
+   
+&& tar -xzf redis.tar.gz -C /usr/src/redis --strip-components=1 \    
+   
+&& make -C /usr/src/redis \    
+   
+&& make -C /usr/src/redis install \    
+   
+&& rm -rf /var/lib/apt/lists/* \    
+   
+&& rm redis.tar.gz \    && rm -r /usr/src/redis \    
+   
+&& apt-get purge -y --auto-remove $buildDeps  
+   ```
 
    写dockerfile时候，要注意不是写shell脚本，而是在定义每一层该如何构建。
 
@@ -178,20 +180,20 @@ run命令是指用来执行命令行命令的，有两种格式：
    最适合使用 `ADD` 的场合，就是所提及的需要自动解压缩的场合。
 
    在使用该指令的时候还可以加上 `--chown=<user>:<group>` 选项来改变文件的所属用户及所属组。
-
+   
    ```dockerfile
    ADD --chown=55:mygroup files* /mydir/
    ADD --chown=bin files* /mydir/
    ADD --chown=1 files* /mydir/
-   ADD --chown=10:11 files* /mydir/
+ADD --chown=10:11 files* /mydir/
    ```
 
    ### CMD 容器启动命令
 
    `CMD` 指令的格式和 `RUN` 相似，也是两种格式：
-
+   
    - `shell` 格式：`CMD <命令>`
-   - `exec` 格式：`CMD ["可执行文件", "参数1", "参数2"...]`
+- `exec` 格式：`CMD ["可执行文件", "参数1", "参数2"...]`
    - 参数列表格式：`CMD ["参数1", "参数2"...]`。在指定了 `ENTRYPOINT` 指令后，用 `CMD` 指定具体的参数。
 
    之前介绍容器的时候曾经说过，Docker 不是虚拟机，容器就是进程。既然是进程，那么在启动容器的时候，需要指定所运行的程序及参数。`CMD` 指令就是用于指定默认的容器主进程的启动命令的。
@@ -207,7 +209,7 @@ run命令是指用来执行命令行命令的，有两种格式：
    `ENTRYPOINT` 的目的和 `CMD` 一样，都是在指定容器启动程序及参数。`ENTRYPOINT` 在运行时也可以替代，不过比 `CMD` 要略显繁琐，需要通过 `docker run` 的参数 `--entrypoint` 来指定。
 
    当指定了 `ENTRYPOINT` 后，`CMD` 的含义就发生了改变，不再是直接的运行其命令，而是将 `CMD` 的内容作为参数传给 `ENTRYPOINT` 指令，换句话说实际执行时，将变为：
-
+   
    ```bash
    <ENTRYPOINT> "<CMD>"
    ```
@@ -222,7 +224,9 @@ run命令是指用来执行命令行命令的，有两种格式：
 
 启动一个镜像，并将mysql映射到服务器3306端口
 
-`docker  run  -it --name  mysql -p 3306:3306   -e MYSQL_ROOT_PASSWORD=root   -v   /home/containermaps/mysql/log/:/var/log/mysql  -v /home/containermaps/mysql/conf.d/:/etc/mysql     -v   /home/containermaps/mysql/data:/var/lib/mysql -d mysql:5.7`
+```bash
+docker  run  -it --name  mysql -p 3306:3306   -e MYSQL_ROOT_PASSWORD=root   -v   /home/containermaps/mysql/log/:/var/log/mysql  -v /home/containermaps/mysql/conf.d/:/etc/mysql     -v   /home/containermaps/mysql/data:/var/lib/mysql -d mysql:5.7
+```
 
 默认用户为root
 
@@ -250,23 +254,28 @@ MYSQL_ROOT_PASSWORD 指定密码
 
 首先在/usr/local下新建目录
 
-`mkdir -p /usr/local/docker-nginx/www /usr/local/docker-nginx/logs /usr/local/docker-nginx/conf`
+```bash
+mkdir -p /usr/local/docker-nginx/www /usr/local/docker-nginx/logs /usr/local/docker-nginx/conf
 
 将docker中nginx配置文件复制到到服务器
 
-`docker cp 63185c51103a:/etc/nginx/nginx.conf /usr/local/docker-nginx/conf/`
+docker cp 63185c51103a:/etc/nginx/nginx.conf /usr/local/docker-nginx/conf/
 
 关闭上一个容器，重新启动一个nginx容器
 
-`docker run -d -p 80:80 --name nginx-server -v /usr/local/docker-nginx/www:/usr/share/nginx/html -v /usr/local/docker-nginx/conf/nginx.conf:/etc/nginx/nginx.conf -v /usr/local/docker-nginx/logs:/var/log/nginx nginx`
+docker run -d -p 80:80 --name nginx-server -v /usr/local/docker-nginx/www:/usr/share/nginx/html -v /usr/local/docker-nginx/conf/nginx.conf:/etc/nginx/nginx.conf -v /usr/local/docker-nginx/logs:/var/log/nginx nginx
+```
 
 由此配置好以后，修改/usr/local/docker-nginx目录下的conf中的nginx.conf，就可以完成对nginx的配置，修改www目录下的html文件即可更新nginx部署的网页
 
 #### redis数据库
 
-`docker pull redis`
+```bash
+docker pull redis
+docker run --restart=always -d -p 6379:6379 -v /usr/local/docker-redis/data/:/data --name redis redis redis-server --appendonly yes --requirepass "redis"
+```
 
-`docker run --restart=always -d -p 6379:6379 -v /usr/local/docker-redis/data/:/data --name redis redis redis-server --appendonly yes --requirepass "redis"`
+
 
 ##### 命令说明：
 
@@ -294,9 +303,10 @@ docker run -p 27017:27017 -v /usr/local/docker-mongodb/data:/data/db -d mongo
 
 ### elasticsearch
 
-`docker pull docker.elastic.co/elasticsearch/elasticsearch:7.5.2`
-
-`docker run -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:7.5.2`
+```bash
+docker pull docker.elastic.co/elasticsearch/elasticsearch:7.5.2
+docker run -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:7.5.2
+```
 
 ### kibana
 
