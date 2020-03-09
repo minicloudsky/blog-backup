@@ -1,7 +1,7 @@
 
 ---
 title: 个人oss书籍和文件同步到这里
-date: 2020-02-19 15:10:44.911470
+date: 2020-03-09 11:32:40.234547
 categories:
 tags:
 ---
@@ -134,6 +134,7 @@ tags:
 [redis设计与实现(第二版).pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/databases/redis%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0%28%E7%AC%AC%E4%BA%8C%E7%89%88%29.pdf)
 [收获，不止SQL优化--抓住SQL的本质 .pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/databases/%E6%94%B6%E8%8E%B7%EF%BC%8C%E4%B8%8D%E6%AD%A2SQL%E4%BC%98%E5%8C%96--%E6%8A%93%E4%BD%8FSQL%E7%9A%84%E6%9C%AC%E8%B4%A8%20.pdf)
 [收获，不止SQL优化--抓住SQL的本质 .pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/databases/%E6%94%B6%E8%8E%B7%EF%BC%8C%E4%B8%8D%E6%AD%A2SQL%E4%BC%98%E5%8C%96--%E6%8A%93%E4%BD%8FSQL%E7%9A%84%E6%9C%AC%E8%B4%A8%20%40www.java1234.com.pdf)
+[数据库索引设计与优化.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/databases/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B4%A2%E5%BC%95%E8%AE%BE%E8%AE%A1%E4%B8%8E%E4%BC%98%E5%8C%96.pdf)
 [高性能MySQL_第3版（中文）.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/databases/%E9%AB%98%E6%80%A7%E8%83%BDMySQL_%E7%AC%AC3%E7%89%88%EF%BC%88%E4%B8%AD%E6%96%87%EF%BC%89.pdf)
 [Docker实战.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/devops/Docker%E5%AE%9E%E6%88%98%40www.java1234.com.pdf)
 [Git教程.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/devops/Git%E6%95%99%E7%A8%8B.pdf)
