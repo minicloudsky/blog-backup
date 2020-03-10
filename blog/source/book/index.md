@@ -1,7 +1,7 @@
 
 ---
 title: 个人oss书籍和文件同步到这里
-date: 2020-03-09 11:32:40.234547
+date: 2020-03-10 14:04:42.806064
 categories:
 tags:
 ---
@@ -167,6 +167,7 @@ tags:
 [监听无线网络.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/networks/%E7%9B%91%E5%90%AC%E6%97%A0%E7%BA%BF%E7%BD%91%E7%BB%9C.pdf)
 [计算机网络.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/networks/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.pdf)
 [reading-radar.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/reading-radar.pdf)
+[白帽子讲Web安全.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/security/%E7%99%BD%E5%B8%BD%E5%AD%90%E8%AE%B2Web%E5%AE%89%E5%85%A8.pdf)
 [《美团机器学习实践》_美团算法团队.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/%E3%80%8A%E7%BE%8E%E5%9B%A2%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%AE%9E%E8%B7%B5%E3%80%8B_%E7%BE%8E%E5%9B%A2%E7%AE%97%E6%B3%95%E5%9B%A2%E9%98%9F.pdf)
 [【1】Head First HTML与CSS（第2版） (1).pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/%E3%80%901%E3%80%91Head%20First%20HTML%E4%B8%8ECSS%EF%BC%88%E7%AC%AC2%E7%89%88%EF%BC%89%20%281%29.pdf)
 [上海交通大学学生生存手册.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/%E4%B8%8A%E6%B5%B7%E4%BA%A4%E9%80%9A%E5%A4%A7%E5%AD%A6%E5%AD%A6%E7%94%9F%E7%94%9F%E5%AD%98%E6%89%8B%E5%86%8C.pdf)
