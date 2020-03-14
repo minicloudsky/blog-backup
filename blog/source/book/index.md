@@ -1,7 +1,7 @@
 
 ---
 title: 个人oss书籍和文件同步到这里
-date: 2020-03-10 14:04:42.806064
+date: 2020-03-14 13:29:01.023607
 categories:
 tags:
 ---
@@ -138,6 +138,7 @@ tags:
 [高性能MySQL_第3版（中文）.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/databases/%E9%AB%98%E6%80%A7%E8%83%BDMySQL_%E7%AC%AC3%E7%89%88%EF%BC%88%E4%B8%AD%E6%96%87%EF%BC%89.pdf)
 [Docker实战.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/devops/Docker%E5%AE%9E%E6%88%98%40www.java1234.com.pdf)
 [Git教程.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/devops/Git%E6%95%99%E7%A8%8B.pdf)
+[Kubernetes权威指南（纪念版）.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/devops/Kubernetes%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97%EF%BC%88%E7%BA%AA%E5%BF%B5%E7%89%88%EF%BC%89.pdf)
 [Ubuntu命令手册.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/devops/Ubuntu%E5%91%BD%E4%BB%A4%E6%89%8B%E5%86%8C.pdf)
 [Ubuntu常用命令大全.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/devops/Ubuntu%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E5%A4%A7%E5%85%A8.pdf)
 [[www.java1234.com]深入理解Nginx模块开发与架构解析第2版LinuxUnix技术丛书-4.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/devops/%5Bwww.java1234.com%5D%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3Nginx%E6%A8%A1%E5%9D%97%E5%BC%80%E5%8F%91%E4%B8%8E%E6%9E%B6%E6%9E%84%E8%A7%A3%E6%9E%90%E7%AC%AC2%E7%89%88LinuxUnix%E6%8A%80%E6%9C%AF%E4%B8%9B%E4%B9%A6-4.pdf)
