@@ -1,7 +1,7 @@
 
 ---
 title: 个人oss书籍和文件同步到这里
-date: 2020-03-17 02:02:47.712581
+date: 2020-03-21 00:22:04.942470
 categories:
 tags:
 ---
@@ -148,6 +148,9 @@ tags:
 [深入理解Nginx模块开发与架构解析第2版LinuxUnix技术丛书-4.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/devops/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3Nginx%E6%A8%A1%E5%9D%97%E5%BC%80%E5%8F%91%E4%B8%8E%E6%9E%B6%E6%9E%84%E8%A7%A3%E6%9E%90%E7%AC%AC2%E7%89%88LinuxUnix%E6%8A%80%E6%9C%AF%E4%B8%9B%E4%B9%A6-4.pdf)
 [鸟哥的Linux私房菜-基础学习篇[第四版][解密版].pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/devops/%E9%B8%9F%E5%93%A5%E7%9A%84Linux%E7%A7%81%E6%88%BF%E8%8F%9C-%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E7%AF%87%5B%E7%AC%AC%E5%9B%9B%E7%89%88%5D%5B%E8%A7%A3%E5%AF%86%E7%89%88%5D.pdf)
 [鸟哥的Linux私房菜基础篇第三版.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/devops/%E9%B8%9F%E5%93%A5%E7%9A%84Linux%E7%A7%81%E6%88%BF%E8%8F%9C%E5%9F%BA%E7%A1%80%E7%AF%87%E7%AC%AC%E4%B8%89%E7%89%88.pdf)
+[Java并发编程实战（中文版）.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/java/Java%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B%E5%AE%9E%E6%88%98%EF%BC%88%E4%B8%AD%E6%96%87%E7%89%88%EF%BC%89.pdf)
+[Java虚拟机（第二版）.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/java/Java%E8%99%9A%E6%8B%9F%E6%9C%BA%EF%BC%88%E7%AC%AC%E4%BA%8C%E7%89%88%EF%BC%89.pdf)
+[Spring+in+action+中文版（第4版）.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/java/Spring%2Bin%2Baction%2B%E4%B8%AD%E6%96%87%E7%89%88%EF%BC%88%E7%AC%AC4%E7%89%88%EF%BC%89%40www.java1234.com.pdf)
 [java基础教程(强烈推荐).pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/java%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B%28%E5%BC%BA%E7%83%88%E6%8E%A8%E8%8D%90%29.pdf)
 [JavaScript函数式编程指南.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/js/JavaScript%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B%E6%8C%87%E5%8D%97.pdf)
 [JavaScript设计模式与开发实践.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/js/JavaScript%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5.pdf)
