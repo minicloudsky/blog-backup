@@ -108,6 +108,10 @@ ignore:
 #theme: next
 theme: yilia
 
+busuanzi:
+    enable: true
+
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
