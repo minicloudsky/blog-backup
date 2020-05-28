@@ -1,7 +1,7 @@
 
 ---
 title: 个人oss书籍和文件同步到这里
-date: 2020-04-16 16:48:13.130420
+date: 2020-05-28 14:37:31.135446
 categories:
 tags:
 ---
@@ -39,7 +39,6 @@ tags:
 [Django Web开发指南.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/Python_Book/Django%20Web%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97.pdf)
 [Django_Book-中文版.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/Python_Book/Django_Book-%E4%B8%AD%E6%96%87%E7%89%88.pdf)
 [Flask Web Development.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/Python_Book/Flask%20Web%20Development.pdf)
-[Flask Web开发实战：入门、进阶与原理解析 - 李辉.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/Python_Book/Flask%20Web%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%98%EF%BC%9A%E5%85%A5%E9%97%A8%E3%80%81%E8%BF%9B%E9%98%B6%E4%B8%8E%E5%8E%9F%E7%90%86%E8%A7%A3%E6%9E%90%20-%20%E6%9D%8E%E8%BE%89.pdf)
 [FlaskWeb开发：基于Python的Web应用开发实战.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/Python_Book/FlaskWeb%E5%BC%80%E5%8F%91%EF%BC%9A%E5%9F%BA%E4%BA%8EPython%E7%9A%84Web%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%AE%9E%E6%88%98.pdf)
 [Numpy 中文用户指南.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/Python_Book/Numpy%20%E4%B8%AD%E6%96%87%E7%94%A8%E6%88%B7%E6%8C%87%E5%8D%97.pdf)
 [PYTHON网络编程基础.pdf](https://plus-books.oss-cn-shenzhen.aliyuncs.com/Python_Book/PYTHON%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80.pdf)
