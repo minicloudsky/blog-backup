@@ -35,14 +35,14 @@ package.json 的 scripts dev里面加上 --disableHostCheck=true
 ps -ef | grep uwsgi
 ```
 ### windows 换行符转 unix换行符
-- ```bash
+```bash
    用 sed 进行字符串替换
 
    sed -i 's/\r//g' *.sh
    用 dos2unix 包
    yum install dos2unix
    dos2unix *.sh
-  ```
+```
 ### nohup 守护进程后台执行任务
 ```bash
 nohup python3  test.py  &>>error.log 
