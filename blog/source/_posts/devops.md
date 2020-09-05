@@ -47,4 +47,12 @@ ps -ef | grep uwsgi
 ```bash
 nohup python3  test.py  &>>error.log 
 ```
+### docker 容器内无法使用vi vim 等命令
+```bash
+apt-get update
+或者 yum update
+然后
+apt-get install vim-tiny
+or yum install vim
+```
 

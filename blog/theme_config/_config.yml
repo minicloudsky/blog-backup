@@ -15,10 +15,10 @@ subnav:
   zhihu: "#"
   qq: "30135681"
   weixin: "wu30135681"
-  #jianshu: "#"
-  #douban: "#"
-  #segmentfault: "#"
-  #bilibili: "#"
+  jianshu: "#"
+  douban: "#"
+  segmentfault: "#"
+  bilibili: "#"
   #acfun: "#"
   mail: "mailto:minicloudsky@gmail.com"
   #facebook: "#"
@@ -40,7 +40,7 @@ excerpt_link: more
 # 文章卡片右下角常驻链接，不需要请设置为false
 show_all_link: '展开全文'
 # 数学公式
-mathjax: false
+mathjax: true
 # 是否在新窗口打开链接
 open_in_new: false
 
@@ -103,7 +103,7 @@ gitment_oauth:
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
   # 头像上面的背景颜色
-  header: '#4d4d4d'
+  header: 'orange'
   # 右滑板块背景
   slider: 'linear-gradient(200deg,#a0cfe4,#e8c37e)'
 
