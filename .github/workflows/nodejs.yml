@@ -18,7 +18,7 @@ jobs:
         git clone https://github.com/minicloudsky/minicloudsky.github.io
     - uses: manyuanrong/setup-ossutil@v1.0
       with: 
-        endpoint: "oss-cn-shenzhen.aliyuncs.com" 
+        endpoint: "oss-cn-shanghai.aliyuncs.com" 
         access-key-id: ${{ secrets.ACCESS_KEY_ID }}
         access-key-secret: ${{ secrets.ACCESS_KEY_SECRET }}
     - name: 部署博客到阿里云oss
