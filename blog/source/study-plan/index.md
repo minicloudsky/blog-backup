@@ -9,7 +9,7 @@ date: 2020-09-15 10:41:13
 
 - 大数据
   - Apache 全家桶
-    - [ ] HDFS 
+    - [ ] HDFS 学习中
     - [ ] YARN 
     - [ ] Hive
     - [ ] ZooKeeper
