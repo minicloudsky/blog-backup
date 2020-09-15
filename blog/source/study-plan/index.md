@@ -49,8 +49,8 @@ date: 2020-09-15 10:41:13
   - 工具类 (了解会用)
     - [ ] Kibana
     - [ ] Hue
-  - [ ] linux 系统
-  - [ ] shell 脚本
+  - linux 系统
+  - shell 脚本
     
 - 前端
    - [ ] js基础
