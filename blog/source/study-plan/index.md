@@ -22,6 +22,7 @@ date: 2020-09-15 10:41:13
     - [ ] Phoenix
     - [ ] Sentry
     - [ ] Spark
+    - [ ] Kafka
     - [ ] Kerberos
     - [ ] 数据仓库、实时数仓
 
