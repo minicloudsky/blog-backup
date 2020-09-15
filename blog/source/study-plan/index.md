@@ -25,12 +25,12 @@ date: 2020-09-15 10:41:13
     - [ ] Flink
     - [ ] DataWarehouse
 
-  - [ ] ETL 相关工具类技术
+  - [ ]ETL相关工具类技术
     - [ ] Sqoop
     - [ ] datax
     - [ ] canal
     - [ ] maxwell
-  - [ ] 数据库
+  - [ ]数据库
     - [ ] Mysql
     - [ ] Oracle
     - [ ] Redis
@@ -42,11 +42,11 @@ date: 2020-09-15 10:41:13
     - [ ] Neo4j
     - [ ] InfluxDB
     - [ ] Presto
-  - [ ] 日志收集
+  - [ ]日志收集
     - [ ] LogStash
     - [ ] FileBeat
     - [ ] Flume
-  - [ ] 工具类 (了解会用)
+  - [ ]工具类 (了解会用)
     - [ ] Kibana
     - [ ] Hue
   - [ ] linux 系统
@@ -60,10 +60,12 @@ date: 2020-09-15 10:41:13
    - [ ] React
    - [ ] WebPack
 
-- [ ] 后端
+- [ ]后端
    - [ ] 编程语言
-     - [ ] Python  
-- [ ] 运维
+     - [ ] Python
+     - [ ] Golang
+     - [ ] Java  
+- [ ]运维
    - [ ] docker
    - [ ] kubernetes
    - [ ] zabbix 监控
