@@ -88,3 +88,5 @@ M2_HOME=C:\software\apache-maven-3.6.3
 ```
 
 然后就可以在 `target` 目录获得编译后自动打包的 jar
+
+我的博客即将同步至腾讯云+社区，邀请大家一同入驻：https://cloud.tencent.com/developer/support-plan?invite_code=3vwytile8e04o
