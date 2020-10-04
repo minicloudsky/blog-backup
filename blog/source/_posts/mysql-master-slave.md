@@ -26,6 +26,7 @@ drwxr-xr-x 6 root root 4096 Sep  5 16:35 mysql_slave
 drwxr-xr-x 6 root root 4096 Sep  5 16:27 mysql_slave2
 ```
 6.  在每个 mysql 目录中创建 data、conf、log、mysql-files 三个目录
+   <!-- more -->
 ```bash
 [root@huawei container]# tree -L 2
 .
@@ -47,7 +48,7 @@ drwxr-xr-x 6 root root 4096 Sep  5 16:27 mysql_slave2
 
 15 directories, 0 files
 ```
-6. 创建 master mysql
+1. 创建 master mysql
    ```bash
    [root@huawei container]# docker run -it  --name mysql_master -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -v /home/container/mysql_master/mysql-files:/var/lib/mysql-files -v /home/container/mysql_master/conf:/etc/mysql -v /home/container/mysql_master/log:/var/log/mysql  -d mysql:latest
    ```
@@ -58,7 +59,7 @@ drwxr-xr-x 6 root root 4096 Sep  5 16:27 mysql_slave2
    - -p 指定容器的端口映射，格式是: 宿主机 ip : 容器内 ip ,这里将 容器内的mysql 3306 端口映射到主机上的 3306端口
    - -v 指定容器的目录挂载，格式是: 宿主机目录: 容器目录，比如 `-v /home/container/mysql_master/mysql-files:/var/lib/mysql-files` 是将 服务器上的 `/home/container/mysql_master/mysql-files`目录挂载到容器内的`/var/lib/mysql-files` 目录
    - -d 指定容器服务在后台运行(注：加了 -d 参数默认不会进入容器，想要进入容器需要使用指令 docker exec)
-7. 进入 master mysql 容器
+2. 进入 master mysql 容器
 ```bash
 [root@huawei container]# docker exec -it mysql_master /bin/bash
 root@d9120d223e94:/# mysql -u root -p

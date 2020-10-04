@@ -12,7 +12,7 @@ tags:
 - Maven 使用 pom.xml 定义项目内容，并使用预设的目录结构；
 - 在 Maven 中声明一个依赖项可以自动下载并导入 classpath；
 - Maven 使用 groupId，artifactId 和 version 唯一定位一个依赖
-
+<!-- more -->
 # maven 依赖关系
 
 依赖关系
