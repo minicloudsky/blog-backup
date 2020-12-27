@@ -1,5 +1,6 @@
 ## 关于我
+某公司数据平台开发小码农，专注于数据平台开发，对算法和云原生有浓厚兴趣。
 
-热爱技术，热爱阅读，热爱生活。
-
-一个年轻人，一个逐梦者，一无所有，一往无前。
+Concact me:
+- email: minicloudsky@gmail.com
+- [Github](http://www.github.com/minicloudsky)
