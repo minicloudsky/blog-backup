@@ -105,8 +105,8 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 # theme: landscape
-#theme: next
-theme: yilia
+theme: next
+#theme: yilia
 
 busuanzi:
     enable: true
