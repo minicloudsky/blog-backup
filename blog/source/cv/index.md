@@ -5,8 +5,8 @@ date: 2019-08-04 13:52:39
 
 * 风之小云天
 * 本科/xxxx/计科系/软件工程
-* 技术博客：[http://yawujia.cn](http://yawujia.cn)
-* Github：[yawuplus](http://github.com/minicloudsky)
+* 技术博客：[http://minicloudsky.github.io](http://minicloudsky.github.io)
+* Github：[minicloudsky](http://github.com/minicloudsky)
 ---
 ### 联系方式
 
